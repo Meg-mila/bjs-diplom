@@ -9,7 +9,7 @@ newUserForm.loginFormCallback = data => {
         } else {
             newUserForm.setLoginErrorMessage(response.error);
         }
-    })
+    });
 }
 
 newUserForm.registerFormCallback = data => {
@@ -19,5 +19,5 @@ newUserForm.registerFormCallback = data => {
        } else {
            newUserForm.setRegisterErrorMessage(response.error);
        }
-    })
+    });
 }
